@@ -1,3 +1,3 @@
 Google HomePage Design : https://ailu88.github.io/GoogleTHP/ 
-- Eloise EMPTOZ
-- Yannick AYS
+- Eloise EMPTOZ @elo
+- Yannick AYS @MisterAYS

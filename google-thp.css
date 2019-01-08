@@ -18,11 +18,32 @@
   background-color: blue
 }
 
-.imagecentre
+.container2
 {
   display:block;
   margin-left:auto;
   margin-right: auto;
   width: 30%;
-  padding:50px;
+  padding:50px;	
+}
+
+.imagecentre
+{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 25px;
+  margin-top:150px;
+}
+
+.button {
+
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+
 }

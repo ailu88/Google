@@ -2,11 +2,27 @@
 {
   display: flex;
   flex-direction: row;
-  
+  justify-content: flex-end;
   background-color: lightblue;
+  font: 20px arial;
+  column-gap: 20px
 }
 
 .footer
 {
   background-color: red;
+}
+
+.button
+{
+  background-color: blue
+}
+
+.imagecentre
+{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 30%;
+  padding:50px;
 }

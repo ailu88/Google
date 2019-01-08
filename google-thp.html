@@ -5,13 +5,11 @@
 
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 	<!-- accent en caracteres speciaux sur navigateur -->
   <title>Google Homepage by THP</title>
-  <link rel="stylesheet" href="google-thp.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- 
-  <script src="script.js"></script> 
-  -->
+  <link rel="stylesheet" href="google-thp.css"> <!-- lien au fichier css -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- lien a l'API de google pour affichier les icons -->
+ 
 </head>
 
  <!-- BODY -->
@@ -19,7 +17,7 @@
 <body>
 
  <!-- MENU DU HAUT -->
-<div class="containerheader">
+<div class="containerheader"> <!-- categorie d'objet que l'on poura mettre en forme sur css -->
              <a href="https://mail.google.com/mail/u/0/?tab=wm"> Gmail <a/>
              <a href="https://www.google.fr/imghp?hl=fr&tab=wi"> Images <a/>
             <a><i class="material-icons" href="https://www.google.fr/intl/fr/about/products/?tab=wh">apps</i></a>
@@ -31,22 +29,18 @@
      
 <div class= "containercentral">
 
-  <div>
-  
-    <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" align="middle" class="imagecentre" />
+	<div>
+	    <img class="imagecentre" src= "https://wi-images.condecdn.net/image/bp1Q2EX5Em2/crop/1620/f/GOOGLELOGO_1.jpg" align="middle"/>
+	</div>
 
-</div>
+	<div class="searchbar">
+	  	<input type="text" size="50px" >
+	</div>
 
-<div class="searchbar">
-  <input type="text" size="50px" >
-</div>
-
-<div class="buttons">
-
-<button class="greybutton"> Recherche Google </button>
-<button class="greybutton"> J'ai de la chance </button>
-
-</div>
+	<div class="buttons">
+		<button class="greybutton"> Recherche Google </button>
+		<button class="greybutton"> J'ai de la chance </button>
+	</div>
 
 </div>
 
@@ -55,12 +49,11 @@
 
 <footer>
 
-<div class="containerfrance"> 
-	<div> France
+	<div class="containerfrance"> 
+		<div> France </div>  <!-- ajouter un div permet de bien appliquer le css a la classe -->
 	</div>
-</div>
 
-	<div class="containerparent">
+	<div class="containerparent">  <!-- separation en deux conteneur enfants pour pouvoir les flexer (une partie aligne a droite une partie a gauche) --> 
 
 		<div class="containerenfant1">
 		        <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"> Publicité <a/>
